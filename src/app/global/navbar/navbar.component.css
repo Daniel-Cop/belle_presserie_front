@@ -1,11 +1,11 @@
 #nav-container {
-    @apply bg-gradient-to-b from-primary to-transparent p-8;
+  @apply bg-gradient-to-b from-primary from-50% to-transparent w-full p-8 absolute top-0 z-10;
 }
 
 nav {
-    @apply flex justify-between bg-white rounded p-8;
+  @apply flex justify-between bg-white rounded p-8;
 }
 
 nav #link-wrapper {
-    @apply flex gap-6;
+  @apply flex gap-6;
 }

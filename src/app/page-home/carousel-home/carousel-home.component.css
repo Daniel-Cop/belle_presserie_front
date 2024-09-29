@@ -1,0 +1,27 @@
+.carousel-container {
+  @apply relative h-[500px] w-full mt-16;
+}
+
+.carousel-img {
+  @apply h-[500px] w-2/3 absolute right-0 object-center object-cover;
+}
+
+.carousel-mask {
+  @apply absolute w-2/3 h-full flex bg-gradient-to-r from-primary from-50% to-transparent;
+}
+
+.carousel-mask-text {
+  @apply h-full w-1/2 flex flex-col justify-evenly items-center p-8;
+}
+
+.carousel-mask-gradient {
+  @apply h-full w-1/2 bg-gradient-to-r from-primary to-transparent;
+}
+
+.carousel-mask-text p {
+  @apply text-white text-center;
+}
+
+.carousel-mask-text p span {
+  @apply font-bold;
+}

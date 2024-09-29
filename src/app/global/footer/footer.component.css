@@ -1,19 +1,19 @@
 footer {
-    @apply bg-primary grid grid-cols-12 p-8 text-white items-center;
+  @apply bg-primary grid grid-cols-12 p-8 text-white items-center;
 }
 
 footer .logo-wrapper {
-    @apply col-span-2;
+  @apply col-span-2;
 }
 
 footer .social-wrapper {
-    @apply col-span-2 h-full flex flex-col justify-around;
+  @apply col-span-2 h-full flex flex-col justify-around;
 }
 
 footer .contact-wrapper {
-    @apply col-span-2;
+  @apply col-span-2;
 }
 
 footer .legal-wrapper {
-    @apply col-span-6 text-justify;
+  @apply col-span-6 text-justify;
 }

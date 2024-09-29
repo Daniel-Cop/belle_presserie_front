@@ -2,22 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+app-root {
+  @apply min-h-screen flex flex-col;
+}
+
 a {
-    @apply no-underline font-semibold text-primary transition-colors;
+  @apply no-underline font-semibold text-primary transition-colors;
 }
 
 a:hover {
-    @apply text-secondary;
+  @apply text-secondary;
 }
 
 a svg {
-    @apply text-white w-[20px] h-[20px] my-2;
+  @apply text-white w-[20px] h-[20px] my-2;
 }
 
 button {
-    @apply rounded bg-secondary;
+  @apply rounded bg-secondary;
 }
 
 button:hover {
-    @apply bg-secondaryDark;
+  @apply bg-secondaryDark;
 }
