@@ -1,0 +1,15 @@
+.about-container {
+  @apply relative h-[500px];
+}
+
+.about-wrapper img {
+  @apply absolute right-0 w-2/3 h-[500px] object-center object-cover;
+}
+
+.about-mask {
+  @apply absolute left-0 w-2/3 h-full bg-gradient-to-r from-white from-70% to-transparent;
+}
+
+.about-mask div {
+  @apply w-2/3 h-full flex flex-col text-center justify-evenly items-center p-8;
+}
