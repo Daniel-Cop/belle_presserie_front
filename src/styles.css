@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    @apply no-underline font-semibold text-primary transition-colors;
+}
+
+a:hover {
+    @apply text-secondary;
+}
+
+a svg {
+    @apply text-white w-[20px] h-[20px] my-2;
+}
+
+button {
+    @apply rounded bg-secondary;
+}
+
+button:hover {
+    @apply bg-secondaryDark;
+}
