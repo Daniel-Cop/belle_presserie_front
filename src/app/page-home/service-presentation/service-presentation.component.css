@@ -1,0 +1,27 @@
+.service-container {
+  @apply relative;
+}
+
+.service-wrapper {
+  @apply h-[500px];
+}
+
+.service-wrapper img {
+  @apply absolute left-0 w-2/3 h-[500px] object-center object-cover;
+}
+
+.service-mask {
+  @apply absolute right-0 flex flex-row-reverse w-2/3 h-[500px] bg-gradient-to-l from-white from-70% to-transparent;
+}
+
+.service-mask div {
+  @apply w-2/3 h-full flex flex-col text-center justify-evenly items-center p-8 text-primary;
+}
+
+.button-wrapper {
+  @apply my-8 w-full flex flex-col justify-center items-center;
+}
+
+.button-wrapper p {
+  @apply my-4 text-xl;
+}

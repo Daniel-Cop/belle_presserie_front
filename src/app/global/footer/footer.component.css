@@ -17,3 +17,7 @@ footer .contact-wrapper {
 footer .legal-wrapper {
   @apply col-span-6 text-justify;
 }
+
+footer a {
+  @apply text-white;
+}
