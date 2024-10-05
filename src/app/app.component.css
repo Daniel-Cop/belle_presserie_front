@@ -1,3 +1,8 @@
+/* margin top to router outlet necessary to position the body nicely with the navbar gradient */
+router-outlet {
+  @apply mt-16;
+}
+
 app-footer {
   @apply mt-auto;
 }

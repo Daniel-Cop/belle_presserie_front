@@ -1,0 +1,51 @@
+img.header {
+  @apply w-full;
+}
+
+.presentation-wrapper {
+  @apply px-8;
+}
+
+.presentation-wrapper p {
+  @apply text-xl my-4;
+}
+
+.presentation-wrapper span {
+  @apply font-bold;
+}
+
+.find-us-container {
+  @apply relative;
+}
+
+.find-us-wrapper {
+  @apply h-[500px];
+}
+
+.find-us-wrapper img {
+  @apply absolute right-0 w-2/3 h-[500px] object-center object-cover;
+}
+
+.find-us-mask {
+  @apply absolute left-0 w-2/3 h-[500px] bg-gradient-to-r from-white from-70% to-transparent;
+}
+
+.find-us-mask div {
+  @apply w-2/3 h-full flex flex-col text-center justify-evenly items-center p-8 text-primary;
+}
+
+.find-us-mask span {
+  @apply font-bold;
+}
+
+.time-wrapper {
+  @apply w-2/3;
+}
+
+.button-wrapper {
+  @apply my-8 w-full flex flex-col justify-center items-center;
+}
+
+.button-wrapper p {
+  @apply my-4 text-xl;
+}

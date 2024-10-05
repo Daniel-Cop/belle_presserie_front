@@ -1,0 +1,35 @@
+.service-card {
+  @apply relative bg-primary w-[300px] h-[450px] rounded text-white text-justify overflow-hidden;
+}
+
+.service-mask {
+  @apply absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-20% from-black to-transparent transition-all;
+}
+
+.service-card h3 {
+  @apply absolute font-semibold text-lg bottom-1/2 left-1/2 translate-x-[-50%];
+}
+
+.service-card img {
+  @apply absolute top-0 w-full h-[450px] object-center object-cover;
+}
+
+.service-card .infos {
+  @apply absolute top-1/2 translate-y-[-50%] hidden p-6 h-2/3;
+}
+
+.service-card button {
+  @apply absolute bottom-0 left-1/2 translate-x-[-50%] my-6;
+}
+
+.service-card:hover .service-mask {
+  @apply h-full;
+}
+
+.service-card:hover h3 {
+  @apply top-0 my-6;
+}
+
+.service-card:hover .infos {
+  @apply flex flex-col justify-between items-center;
+}

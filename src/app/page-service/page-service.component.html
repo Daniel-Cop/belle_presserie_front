@@ -1,1 +1,20 @@
-<p>page-service works!</p>
+<div class="header">
+  <h2>Nos services</h2>
+  <p>
+    Grâce à notre nouveau service en ligne vous pouves choisir votre soin
+    directement depuis che vous !
+  </p>
+  <p>
+    Une fois choisi vous pourrez payer en ligne ou directement sur place lorsque
+    vous apportez les articles au magasin.
+  </p>
+  <p>
+    Quand vos article seront prêts, vous receverez une notification pour venir
+    les récupérer !
+  </p>
+</div>
+<div class="cards-wrapper">
+  @for (service of servicesList; track $index; let i = $index) {
+  <app-service-card [service]="service" [i]="i"></app-service-card>
+  }
+</div>

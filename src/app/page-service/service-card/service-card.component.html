@@ -1,0 +1,16 @@
+<div class="service-card">
+  <img [src]="service?.image" alt="Service image" />
+  <div class="service-mask">
+    <h3>{{ service?.name }}</h3>
+    <div class="infos">
+      <p>{{ service?.description }}</p>
+      <div>
+        <p>Prix</p>
+        <p>
+          <span>{{ service?.price }}</span> €
+        </p>
+      </div>
+    </div>
+    <button class="button">Sélectionner</button>
+  </div>
+</div>
