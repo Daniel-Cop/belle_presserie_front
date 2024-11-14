@@ -11,5 +11,6 @@ import { ServiceService } from '../_service/service.service';
 })
 export class PageServiceComponent {
   service = inject(ServiceService);
+
   servicesList = this.service.getAllServices();
 }
